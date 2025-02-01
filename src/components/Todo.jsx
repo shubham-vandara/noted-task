@@ -11,7 +11,7 @@ export default function Todo({
 }) {
   return (
     <div key={item.id} className="bg-white shadow-md rounded-lg p-4 w-full">
-      <div className="flex  flex-row justify-between items-start gap-4">
+      <div className="flex  flex-row justify-between items-center gap-4">
         {/* Left Section: Checkbox & Todo Text */}
         <div className="flex items-center gap-3 flex-1 min-w-0">
           <input
