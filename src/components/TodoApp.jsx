@@ -59,7 +59,7 @@ function TodoApp() {
   return (
     <div className="flex flex-col items-center min-h-[100vh] px-4 bg-slate-950">
       <Navbar />
-      <div className="bg-violet-100 min-h-[70vh] shadow-lg rounded-lg p-6 w-full max-w-lg mb-4">
+      <div className="bg-violet-100 min-h-[67vh] md:min-h-[75vh] shadow-lg rounded-md p-6 w-full max-w-lg mb-4">
         <h2 className="text-2xl font-semibold text-gray-800 text-center mb-4">
           Todo App
         </h2>
